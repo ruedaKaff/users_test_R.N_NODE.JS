@@ -1,0 +1,22 @@
+{
+  "name": "pruebamovil",
+  "version": "1.0.0",
+  "description": "prueba desarrollo movil",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon src/main.js",
+    "start": "npm run src/main.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
